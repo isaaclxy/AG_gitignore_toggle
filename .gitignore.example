@@ -1,0 +1,24 @@
+# Standard gitignore rules
+node_modules/
+.DS_Store
+.venv/
+__pycache__/
+
+# --- AG Toggle Section ---
+# Place files you want to toggle between "ignored" and "visible" inside these tags.
+# When in "Work Mode", these lines will be commented out (visible to git).
+# When in "Commit Mode", these lines will be active (ignored by git).
+
+# <ag-toggle>
+agents.md
+internal_docs/
+notes.txt
+config/secrets.json
+# </ag-toggle>
+
+*.env
+
+# <ag-toggle>
+second_section_works_too.txt
+multiple_sections_work_too.txt
+# </ag-toggle>
