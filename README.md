@@ -2,7 +2,7 @@
 
 I believe `.gitignore` should be used specifically to exclude files from version control. However, some AI agents, like Google Antigravity, appears to also exclude files in `.gitignore` from being seen/edited by the AI Agent.
 
-This makes it inconvenient for me to disable rows in .gitignore when working with AG agent, and then enabling it again before committing. As such, here's a simple "Quality of Life" Python script designed to temporarily expose specific internal files (like agent documentation, scratchpads, or secret notes) to your working environment without risking them being permanently committed or exposed to the public.
+This makes it inconvenient to disable rows in .gitignore when working with AG agent, and then enabling it again before committing. As such, here's a simple "Quality of Life" Python script designed to temporarily expose specific internal files (like agent documentation, scratchpads, or secret notes) to your working environment without risking them being permanently committed or exposed to the public.
 
 It works by selectively toggling comments in your `.gitignore` files, allowing you to "reveal" files to tools (like AI agents or your IDE) while working, and "hide" them again before committing.
 
